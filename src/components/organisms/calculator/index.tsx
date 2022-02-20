@@ -10,12 +10,6 @@ const Calculator = () => {
       <ButtonArea>
         <NumberArea>
           <Number>
-            <Button text={"÷"} />
-            <Button text={"×"} />
-            <Button text={"−"} />
-            <Button text={"+"} />
-          </Number>
-          <Number>
             <Button text={7} />
             <Button text={8} />
             <Button text={9} />
@@ -30,11 +24,17 @@ const Calculator = () => {
             <Button text={2} />
             <Button text={3} />
           </Number>
+          <Number>
+            <Button text={"AC"} />
+            <Button text={0} />
+            <Button text={"="} />
+          </Number>
         </NumberArea>
         <Operator>
-          <Button text={0} />
-          <Button text={"AC"} />
-          <Button text={"="} />
+          <Button text={"÷"} />
+          <Button text={"×"} />
+          <Button text={"−"} />
+          <Button text={"+"} />
         </Operator>
       </ButtonArea>
     </Main>
