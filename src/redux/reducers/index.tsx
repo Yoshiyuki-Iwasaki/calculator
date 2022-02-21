@@ -1,7 +1,6 @@
-import React from "react";
 import { combineReducers } from "redux";
-import Calculator from "../../components/molucules/calculator";
+import calculator from "./calculator";
 
-const Reducer = combineReducers({ Calculator });
+const reducer = combineReducers({ calculator });
 
-export default Reducer;
+export default reducer;

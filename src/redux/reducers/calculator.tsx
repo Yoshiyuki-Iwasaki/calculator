@@ -16,7 +16,7 @@ const initialAppState = {
   showingResult: false,
 };
 
-const Calculator = (state = initialAppState, action: any) => {
+const calculator = (state = initialAppState, action: any) => {
   switch (action.type) {
     case INPUT_NUMBER:
       return {
@@ -150,4 +150,4 @@ const Calculator = (state = initialAppState, action: any) => {
   }
 };
 
-export default Calculator;
+export default calculator;
